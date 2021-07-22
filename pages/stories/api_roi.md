@@ -108,7 +108,7 @@ curl --location --request GET 'https://www.roi.ru/api/attributes/level'
 
 Ошибка авторизации. 
 
-{% include important.html content="Для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+{% include important.html content="для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
 
 ***
 
@@ -195,7 +195,7 @@ curl --location --request GET 'https://www.roi.ru/api/attributes/status'
 
 Ошибка авторизации. 
 
-{% include important.html content="Для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+{% include important.html content="для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
 
 ***
 
@@ -349,7 +349,7 @@ curl --location --request GET 'https://www.roi.ru/api/petitions/poll'
 
 Ошибка авторизации. 
 
-{% include important.html content="Для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+{% include important.html content="для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
 
 ***
 
@@ -496,7 +496,9 @@ curl --location --request GET 'https://www.roi.ru/api/petitions/complete'
 
 Ошибка авторизации. 
 
-{% include important.html content="Для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+{% include important.html content="для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+
+***
 
 #### Инициативы в статусе “В архиве”
 
@@ -641,7 +643,9 @@ curl --location --request GET 'https://www.roi.ru/api/petitions/archive'
 
 Ошибка авторизации. 
 
-{% include important.html content="Для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+{% include important.html content="для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+
+***
 
 #### Инициатива
 
@@ -802,6 +806,6 @@ curl --location --request GET 'https://www.roi.ru/api/petition/1016'
 
 Ошибка авторизации. 
 
-{% include important.html content="Для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
+{% include important.html content="для устранения ошибки убедитесь в правильности написания URL точки входа (endpoint) и повторите запрос." %}
 
 {% include links.html %}
