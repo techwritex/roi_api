@@ -33,7 +33,7 @@ summary: "v 1.0"
 
 <span class="label label-success" style="font-size: .9em;">GET</span> **/attributes/level**
 
-Данная точка входа (endpoint) позволяет получить значения справочника с уровнями реализации инициатив.
+Получает значения справочника с уровнями реализации инициатив.
 
 ##### Параметры
 
@@ -116,7 +116,7 @@ curl --location --request GET 'https://www.roi.ru/api/attributes/level'
 
 <span class="label label-success" style="font-size: .9em;">GET</span> **/attributes/status**
 
-Данная точка входа (endpoint) позволяет получить значения справочника со статусами инициативы.
+Получает значения справочника со статусами инициативы.
 
 ##### Параметры
 
@@ -207,7 +207,7 @@ curl --location --request GET 'https://www.roi.ru/api/attributes/status'
 
 <span class="label label-success" style="font-size: .9em;">GET</span> **/petitions/poll**
 
-Данная точка входа (endpoint) позволяет получить список инициатив в статусе «На голосовании».
+Получает список инициатив в статусе «На голосовании».
 
 ##### Параметры
 
@@ -357,7 +357,7 @@ curl --location --request GET 'https://www.roi.ru/api/petitions/poll'
 
 <span class="label label-success" style="font-size: .9em;">GET</span> **/petitions/complete**
 
-Данная точка входа (endpoint) позволяет получить список инициатив в статусе «Решение принято».
+Получает список инициатив в статусе «Решение принято».
 
 ##### Параметры
 
@@ -504,7 +504,7 @@ curl --location --request GET 'https://www.roi.ru/api/petitions/complete'
 
 <span class="label label-success" style="font-size: .9em;">GET</span> **/petitions/archive**
 
-Данная точка входа (endpoint) позволяет получить список инициатив в статусе «В архиве».
+Получает список инициатив в статусе «В архиве».
 
 ##### Параметры
 
@@ -651,7 +651,7 @@ curl --location --request GET 'https://www.roi.ru/api/petitions/archive'
 
 <span class="label label-success" style="font-size: .9em;">GET</span> **/petition/{id}**
 
-Данная точка входа (endpoint) позволяет получить информацию по интересующей инициативе.
+Получает информацию по интересующей инициативе.
 
 ##### Параметры
 
